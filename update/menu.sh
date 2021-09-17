@@ -9,7 +9,7 @@ sudo apt-get install ruby
 sudo gem install lolcat
 
 clear 
-figlet -f slant PREMIUM SCRIPT  | lolcat
+figlet -f slant WalpakVPN  | lolcat
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
@@ -31,18 +31,18 @@ IPVPS=$(curl -s ipinfo.io/ip )
 	echo -e "   \e[032;1mTime:\e[0m $WKT"
 	echo -e "   \e[033;1mIPVPS:\e[0m $IPVPS"
 echo -e  ""
-echo -e   "  \e[1;32m════════════════════════════════════════════════════════════\e[m" | lolcat
+echo -e   "  \e[1;32m============================================================\e[m" | lolcat
 echo -e   "                             MENU OPTION\e[m" | lolcat 
-echo -e   "  \e[1;32m════════════════════════════════════════════════════════════\e[m" | lolcat
+echo -e   "  \e[1;32m============================================================\e[m" | lolcat
 echo -e   "   1\e[1;33m)\e[m SSH & OpenVPN Menu"
 echo -e   "   2\e[1;33m)\e[m Panel Wireguard "
 echo -e   "   3\e[1;33m)\e[m Panel SSR & SS Account"
 echo -e   "   4\e[1;33m)\e[m Panel V2Ray"
 echo -e   "   5\e[1;33m)\e[m Panel VLess"
 echo -e   "   6\e[1;33m)\e[m Panel TRojan"
-echo -e   "  \e[1;32m════════════════════════════════════════════════════════════\e[m" | lolcat
+echo -e   "  \e[1;32m============================================================\e[m" | lolcat
 echo -e   "                             SYSTEM MENU\e[m" | lolcat 
-echo -e   "  \e[1;32m════════════════════════════════════════════════════════════\e[m" | lolcat
+echo -e   "  \e[1;32m============================================================\e[m" | lolcat
 echo -e   "   7\e[1;33m)\e[m   Add Subdomain Host For VPS"
 echo -e   "   8\e[1;33m)\e[m   Renew Certificate V2RAY"
 echo -e   "   9\e[1;33m)\e[m   Change Port All Account"
@@ -62,9 +62,9 @@ echo -e   "   22\e[1;33m)\e[m  Pointing BUG"
 echo -e   "   23\e[1;33m)\e[m  Clear log"
 echo -e   "   24\e[1;33m)\e[m  Auto Reboot"
 echo -e   "   25\e[1;33m)\e[m  Status system running"
-echo -e   "  \e[1;32m════════════════════════════════════════════════════════════\e[m" | lolcat
+echo -e   "  \e[1;32m============================================================\e[m" | lolcat
 echo -e   "   x)   Exit" | lolcat
-echo -e   "  \e[1;32m════════════════════════════════════════════════════════════\e[m" | lolcat
+echo -e   "  \e[1;32m============================================================\e[m" | lolcat
 echo -e   ""
 read -p "     Select From Options [1-24 or x] :  " menu
 echo -e   ""
