@@ -3,8 +3,13 @@ yl='\e[031;1m'
 bl='\e[36;1m'
 gl='\e[32;1m'
 
+#install figlet & lolcat
+sudo apt-get install figlet
+sudo apt-get install ruby
+sudo gem install lolcat
+
 clear 
-cat /usr/bin/bannerku | lolcat
+figlet -f slant PREMIUM SCRIPT  | lolcat
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
